@@ -1,0 +1,17 @@
+1. Download a Nessus Essential
+https://www.tenable.com/downloads/nessus?_gl=1*1wy2c7o*_ga*MTc4ODYyMjExNi4xNzEwNDg4MTIx*_ga_HSJ1XWV6ND*MTcxMDU2NjQyMC4zLjEuMTcxMDU2NjYyNy4wLjAuMA..&loginAttempted=true
+
+2. at CLI
+dpkg -i filenameofdownload_nessus_essential
+systemctl start nessusd
+systemctl status nessusd
+
+5. At browser access https://127.1.0.0.1:8834
+
+4. on GUI select "Nessus Essential"
+
+5. Registered an email for Product Key
+https://www.tenable.com/products/nessus/nessus-essentials
+
+6. Add Product Key
+7. Create Username and Password
