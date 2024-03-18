@@ -6,7 +6,7 @@ dpkg -i filenameofdownload_nessus_essential
 systemctl start nessusd
 systemctl status nessusd
 
-5. At browser access https://127.1.0.0.1:8834
+5. At browser access https://127.1.0.1:8834
 
 4. on GUI select "Nessus Essential"
 
