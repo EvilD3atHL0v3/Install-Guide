@@ -5,7 +5,7 @@ Follow these steps to install Nessus Essentials on your system.
 ## 1. Download Nessus Essentials
 
 - **Visit the Nessus Downloads Page:** Navigate to the [Nessus Downloads](https://www.tenable.com/downloads/nessus) page.
-https://www.tenable.com/downloads/nessus?_gl=1*1wy2c7o*_ga*MTc4ODYyMjExNi4xNzEwNDg4MTIx*_ga_HSJ1XWV6ND*MTcxMDU2NjQyMC4zLjEuMTcxMDU2NjYyNy4wLjAuMA..&loginAttempted=true
+  - https://www.tenable.com/downloads/nessus?_gl=1*1wy2c7o*_ga*MTc4ODYyMjExNi4xNzEwNDg4MTIx*_ga_HSJ1XWV6ND*MTcxMDU2NjQyMC4zLjEuMTcxMDU2NjYyNy4wLjAuMA..&loginAttempted=true
 
 - **Select Your Platform:** Choose the appropriate installer for your operating system.
 
@@ -41,7 +41,8 @@ After installation, start the Nessus service:
 > **Note:** Ensure that the service is active and running.
 
 ## 4. Access the Nessus Web Interface
-Open your web browser and navigate to: https://127.0.0.1:8834
+Open your web browser and navigate to: 
+https://127.0.0.1:8834
 
 ## 5. Configure Nessus Essentials
 
