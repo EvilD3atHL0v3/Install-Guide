@@ -13,7 +13,7 @@ https://www.tenable.com/downloads/nessus?_gl=1*1wy2c7o*_ga*MTc4ODYyMjExNi4xNzEwN
 
 ## 2. Install Nessus Essentials
 
-    Open your terminal and execute the following commands:
+Open your terminal and execute the following commands:
 
   - **Navigate to the Download Directory:**
 
