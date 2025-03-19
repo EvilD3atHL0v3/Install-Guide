@@ -1,5 +1,8 @@
 # Installing Burp Suite on Windows
 
+## Description
+Burp Suite is a powerful cybersecurity tool used for web application security testing. It is widely used by security professionals and ethical hackers for performing penetration tests, identifying vulnerabilities, and analyzing HTTP/S traffic.
+
 ## Purpose
 To provide clear and concise instructions for installing Burp Suite, a widely used security testing tool, on a Windows operating system. This procedure ensures that users can set up Burp Suite efficiently to perform web application security testing, vulnerability assessments, and penetration testing.
 
