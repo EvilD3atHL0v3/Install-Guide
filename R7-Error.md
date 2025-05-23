@@ -51,6 +51,29 @@ C:\Program Files\Rapid7\Insight Agent\components\insight_agent\common\config
    - Certain endpoint protection and anti-virus software might prevent the agent from functioning properly.  
    - [EPP Software Requirements](https://docs.rapid7.com/insight-agent/epp-software-requirements)
 
+## If Agent is Still Not Visible
+
+1. ✅ **Check Diagnostic Status**
+   - Run the diagnostic tool from the agent’s install directory:
+     ```bash
+     ./ir_agent -diagnose
+     ```
+   - Ensure the output status is **PASSED**.
+
+2. 🔄 **If PASSED but Still Not Visible**
+   - Restart the Rapid7 service:
+     ```bash
+     sudo systemctl restart ir_agent
+     ```
+     *(Command may vary depending on system setup)*
+
+3. ♻️ **If Issue Persists**
+   - Retry by reinstalling the Rapid7 agent.
+
+4. 🛠️ **After Second Reinstall and Still Not Viewable**
+   - If diagnostics still show **PASSED** but the agent is not visible:
+     - **Raise the issue to Rapid7 Support** with all the collected information.
+
 # 🕵️‍♂️ Troubleshooting Rapid7 Agent Not Visible on Dashboard
 
 Follow these steps to investigate when a Rapid7 Insight Agent is not appearing on the Insight Platform dashboard.
@@ -100,3 +123,4 @@ Back in the Insight Platform, run a query to search for the agent by its ID:
 ``` 
 agent.agentId = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
+
