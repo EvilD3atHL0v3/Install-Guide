@@ -34,10 +34,14 @@ https://files.greenbone.net/download/delivery/website-free/OPENVAS-FREE-24.10.9-
 ## SHA256 Checksum
 
 ```text
-(Add the official SHA256 checksum here)
+81927ac0049624a3fb56c14573e8614735522ab4b45af2eb5ab03d727d6ae159
 ```
 
 ---
+## You can find a detailed installation guide here:
+```text
+https://www.greenbone.net/en/greenbone-free#installationinstructions
+```
 
 # Verify the Downloaded File
 
